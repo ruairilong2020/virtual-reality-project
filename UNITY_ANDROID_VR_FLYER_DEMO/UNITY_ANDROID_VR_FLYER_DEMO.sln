@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNITY_ANDROID_VR_FLYER_DEMO.CSharp", "UNITY_ANDROID_VR_FLYER_DEMO.CSharp.csproj", "{ADB2EB1A-7BFD-926A-F280-8BE453B8098F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNITY_ANDROID_VR_FLYER_DEMO.CSharp.Editor", "UNITY_ANDROID_VR_FLYER_DEMO.CSharp.Editor.csproj", "{DC1458B5-677A-527B-2836-D515923D7377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB2EB1A-7BFD-926A-F280-8BE453B8098F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB2EB1A-7BFD-926A-F280-8BE453B8098F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB2EB1A-7BFD-926A-F280-8BE453B8098F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB2EB1A-7BFD-926A-F280-8BE453B8098F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1458B5-677A-527B-2836-D515923D7377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1458B5-677A-527B-2836-D515923D7377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1458B5-677A-527B-2836-D515923D7377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1458B5-677A-527B-2836-D515923D7377}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

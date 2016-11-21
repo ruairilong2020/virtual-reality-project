@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.pni.rlong.unitytestplugin">
+  <application android:icon="@drawable/app_icon" android:label="@string/app_name">
+    <activity android:name="com.pni.rlong.unitytestplugin.MainActivity"
+             android:label="@string/app_name"
+               
+             android:screenOrientation="landscape"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+		<action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+      </intent-filter>
+	  <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+    </activity>
+    <meta-data android:name="IMMERSIVE_MODE" android:value="true" />
+  </application>
+</manifest>
