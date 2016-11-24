@@ -5,6 +5,9 @@ When the board is attached to the side of a google VR cardboard viewer, the syst
 
 The unity game is based on the unity flyer sample VR game and is compatible with google's cardboard viewer. The android plugin I created for the unity game reads in the orientation data for head tracking from the custom board using Android's USB manager. 
 
+
+[video of system in operation](https://youtu.be/L4SEYiw9Usc)
+
 # Quick start guide
 
 ## Prerequisites
